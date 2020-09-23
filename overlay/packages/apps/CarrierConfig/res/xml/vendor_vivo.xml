@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="apn_expand_bool" value="true" />
+        <boolean name="world_phone_bool" value="true" />
+        <boolean name="allow_adding_apns_bool" value="true" />
+        <boolean name="hide_preferred_network_type_bool" value="false" />
+        <boolean name="show_cdma_choices_bool" value="true" />
+        <boolean name="allow_video_call_in_low_battery" value="true" />
+        <boolean name="config_enable_display_14digit_imei" value="false" />
+        <boolean name="video_call_use_ext" value="true" />
+        <boolean name="use_custom_video_ui" value="false" />
+        <boolean name="config_hide_preview_in_vt_confcall" value="false" />
+        <boolean name="config_carrier_cs_retry_available" value="false" />
+        <boolean name="remove_modify_call_capability" value="false" />
+        <boolean name="show_video_quality_toast" value="true" />
+        <boolean name="show_call_session_event_toast" value="true" />
+        <boolean name="show_data_usage_toast" value="true" />
+        <boolean name="show_apn_setting_cdma_bool" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <boolean name="show_static_image_ui" value="false" />
+        <boolean name="transmit_static_image" value="false" />
+        <boolean name="show_video_quality_ui" value="false" />
+        <boolean name="vowifi_call_quality" value="false" />
+        <boolean name="carrier_allow_deflect_ims_call_bool" value="false" />
+        <boolean name="carrier_rtt_auto_upgrade" value="false" />
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="false" />
+        <boolean name="carrier_rtt_upgrade_supported" value="false" />
+        <boolean name="carrier_rtt_downgrade_supported" value="false" />
+        <boolean name="show_rtt_visibility_setting_bool" value="false" />
+        <boolean name="rtt_always_enabled_bool" value="false" />
+        <boolean name="config_update_service_status" value="false" />
+        <boolean name="config_update_volte_icon" value="false" />
+        <boolean name="auto_retry_failed_wifi_emergency_call" value="true" />
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+        <boolean name="allow_holding_video_call" value="true" />
+        <string-array name="ratchet_rat_families" num="3">
+            <item value="1,2" />
+            <item value="7,8,12" />
+            <item value="3,11,9,10,15" />
+        </string-array>
+        <boolean name="vt_over_wifi_check_wfc_enable_bool" value="true" />
+        <boolean name="carrier_conf_info_ignore_display_text" value="true" />
+        <boolean name="need_select_apn" value="false" />
+        <string name="gps.nfw_proxy_apps">com.vivo.carrierlocation</string>
+        <boolean name="carrier_fiveg_default_value" value="false" />
+    </carrier_config>
+</carrier_config_list>
